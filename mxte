@@ -1,0 +1,4 @@
+wget https://github.com/WyvernTKC/cpuminer-gr-avx2/releases/download/1.2.4.1/cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz
+tar zxvf cpuminer-gr-1.2.4.1-x86_64_linux.tar.gz
+cd cpuminer-gr-1.2.4.1-x86_64_linux/binaries
+sudo ./cpuminer-avx2 -a gr -u MD5UqAYkUuv7Ba8sjENGkVhgtsF6ZF2w84 -o stratum-na.rplant.xyz:7028 -t 8 --no-tune
