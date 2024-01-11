@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_mxte001_mxte_1704942122020-pr-trigger-input-set
+  identifier: Build_mxte001_mxte_1704942122020prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_mxte001_mxte_1704942122020
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
